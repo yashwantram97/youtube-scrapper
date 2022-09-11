@@ -33,7 +33,7 @@ def queueForScrapVideo():
             collection.update_one(myquery, newvalues)
         else:
             tmp = {}
-            tmp["id"] = json["id"]
+            tmp["id"] = int(json["id"])
             tmp["queueStatus"] = 0
             collection.insert_one(tmp)
 
