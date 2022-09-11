@@ -127,14 +127,15 @@ def downloadAndUploadYoutubeVideoToS3(videoLinks):
     
     collection = get_mongo_collection()
     collection = collection["videoAndComments"]
-    myquery = {"id": videoLinks["id"]}
+    myquery = {"id": int(videoLinks["id"])}
+    s3FileName = downloadVideoAndSaveTos3(videoLinks["link"])
     if collection.find_one(myquery) is not None:
-        s3FileName = downloadVideoAndSaveTos3(videoLinks["link"])
         newvalues = {"$set": {"videoFileName": s3FileName,"queueStatus":1}}
         collection.update_one(myquery, newvalues)
     else:
         tmp = {}
-        tmp["id"] = videoLinks["id"]
+        tmp["id"] = int(videoLinks["id"])
+        tmp["queueStatus"] = 1
         tmp["videoFileName"] = s3FileName
         collection.insert_one(tmp)
 
@@ -146,6 +147,6 @@ def downloadCommentsFromYoutube(videoLinks):
 
     for link in videoLinks:
         tmp = {}
-        tmp["id"] = link["id"]
+        tmp["id"] = int(link["id"])
         tmp["comments"] = fetchAllComments(link["link"])
         collection.insert_one(tmp)

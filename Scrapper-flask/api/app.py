@@ -121,7 +121,7 @@ def scrap():
             queue_link.append(tmp)
         # Queue should happen here
         if len(queue_link) > 0:
-            call_comment_queue(queue_link)
+            call_comment_queue({ "videoLinks": queue_link})
         result["id"] = channel_search.id
         result["message"] = "Successfully scrapped data"
         result["status"] = True
@@ -144,12 +144,13 @@ def get_comment_by_video_id():
     obj = collection.find_one(myquery)
     result = {}
     if args.get('data') == 'comment':
-        if obj is not None:
+        if obj is not None and "comments" in obj:
             comment = obj["comments"]
             result["data"] = comment
             result["status"] = True
             result["message"] = "Successfully fetched comments"
         else:
+            result["data"] = []
             result["message"] = "No comments for the video"
             result["status"] = False
     else:
@@ -188,4 +189,4 @@ def get_scrapped_details():
     return make_response(jsonify(result),200)
 
 if __name__ == '__main__':
-    app.run(debug=True,host='0.0.0.0',port=8000)
+    app.run(debug=True,host='0.0.0.0',port=8001)
