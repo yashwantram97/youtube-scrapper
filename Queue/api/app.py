@@ -26,7 +26,7 @@ def queueForScrapVideo():
         videoLinks = json
         mongo = get_mongo_collection()
         collection = mongo["videoAndComments"]
-        myquery = {"id": json["id"]}
+        myquery = {"id": int(json["id"])}
 
         if collection.find_one(myquery) is not None:
             newvalues = {"$set": {"queueStatus": 0}}
@@ -34,7 +34,7 @@ def queueForScrapVideo():
         else:
             tmp = {}
             tmp["id"] = json["id"]
-            tmp["queueStatus"] = s3FileName
+            tmp["queueStatus"] = 0
             collection.insert_one(tmp)
 
         task = celery.send_task('tasks.downloadAndUploadYoutubeVideoToS3', args=[videoLinks], kwargs={})
