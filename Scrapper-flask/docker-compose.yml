@@ -1,0 +1,19 @@
+version: "3.8"
+services:
+
+  server:
+    container_name: api
+    build:
+      context: api
+      dockerfile: Dockerfile
+    ports:
+      - "8000:8000"
+    hostname: api
+    depends_on:
+      - selenium
+
+  selenium:
+    image: selenium/standalone-chrome
+    ports:
+    - 4444:4444
+    hostname: selenium
