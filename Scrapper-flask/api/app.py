@@ -188,5 +188,23 @@ def get_scrapped_details():
 
     return make_response(jsonify(result),200)
 
+@app.route('/queue/scrap/video',methods=["POST"])
+def addVideoToQueue():
+
+    payload = request.json
+    headers = {'content-type': 'application/json', 'Accept-Charset': 'UTF-8'}
+    payload = json.dumps(payload)
+    r = requests.post(app.config['QUEUE_URL_VIDEO'], data=payload, headers=headers)
+    result = {}
+    if r.status_code == 200:
+        result["status"] = True
+        result["message"] = "successully added to queue"
+        make_response(jsonify(result),200)
+    else:
+        result["status"] = False
+        result["message"] = "Something went wrong"
+    
+    return make_response(jsonify(result),200)
+
 if __name__ == '__main__':
     app.run(debug=True,host='0.0.0.0',port=8001)
