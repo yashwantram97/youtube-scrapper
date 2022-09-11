@@ -147,8 +147,5 @@ def downloadCommentsFromYoutube(videoLinks):
     for link in videoLinks:
         tmp = {}
         tmp["id"] = link["id"]
-        try:
-            tmp["comments"] = fetchAllComments(link["link"])
-        except Exception as e:
-            tmp["comments"] = []
+        tmp["comments"] = fetchAllComments(link["link"])
         collection.insert_one(tmp)
