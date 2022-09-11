@@ -102,8 +102,8 @@ def scrap():
         channel_name = json["channelName"]
         video_count = json["videoCount"] + 1
         wd = None
-        wd = webdriver.Remote("http://127.0.0.1:4444/wd/hub", options=options)
-        #wd = webdriver.Remote("http://selenium:4444/wd/hub", options=options)
+        #wd = webdriver.Remote("http://127.0.0.1:4444/wd/hub", options=options)
+        wd = webdriver.Remote("http://selenium:4444/wd/hub", options=options)
         channel_search = ChannelSearch(channel_name = channel_name)
         db.session.add(channel_search)
         db.session.commit()
