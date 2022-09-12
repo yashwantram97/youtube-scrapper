@@ -14,13 +14,13 @@ services:
       - server
 
   server:
-    container_name: api
+    container_name: server
     build:
       context: api
       dockerfile: Dockerfile
     ports:
       - "8000:8000"
-    hostname: api
+    hostname: scrapper
     networks:
       - scrapper-app
     depends_on:
@@ -33,6 +33,19 @@ services:
     hostname: selenium
     networks:
       - scrapper-app
+
+  nginx:
+      build:
+        context: ./nginx
+        dockerfile: Dockerfile
+      container_name: nginx
+      hostname: nginx
+      ports:
+        - "80:80" 
+      depends_on:
+        - server
+      networks:
+        - scrapper-app
 
 
 networks:
