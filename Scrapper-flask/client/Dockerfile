@@ -18,5 +18,5 @@ COPY ${CADDYFILE} /etc/caddy/Caddyfile
 
 COPY --from=builder /usr/src/app/build/ /srv
 
-EXPOSE 3000
+EXPOSE 80
 
