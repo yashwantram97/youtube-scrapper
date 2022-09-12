@@ -1,0 +1,276 @@
+{
+    "data": [
+        {
+            "author": "frank",
+            "comment_id": "UgxcCjGEFvI16jPN3CV4AaABAg",
+            "comment_likes": 0,
+            "comment_text": "yooo... its very helping me... thx",
+            "created_at": "2022-09-10T14:33:38Z",
+            "replies": [],
+            "reply_count": 0,
+            "updated_at": "2022-09-10T14:33:38Z"
+        },
+        {
+            "author": "Vikas 0018",
+            "comment_id": "UgylPrSaJgLH-TLD3SR4AaABAg",
+            "comment_likes": 0,
+            "comment_text": "❤️❤️❤️❤️",
+            "created_at": "2022-09-10T06:01:29Z",
+            "replies": [],
+            "reply_count": 0,
+            "updated_at": "2022-09-10T06:01:29Z"
+        },
+        {
+            "author": "tejas Jani",
+            "comment_id": "Ugzp2yKzZezEGh0CSPl4AaABAg",
+            "comment_likes": 1,
+            "comment_text": "In compiled js, all variables start with &#39;var&#39; whereas in the .ts file we declare using let .   <br>I found this answer on sOF. is it right?<br>`The compiler by default transpiles to ES3. The let keyword doesn&#39;t exist in ES3, so the emitter must emit code using syntax available in ES3... in this case, the best replacement for the let keyword is the var keyword.`",
+            "created_at": "2022-09-10T05:37:35Z",
+            "replies": [
+                {
+                    "authorDisplayName": "Hitesh Choudhary",
+                    "created_at": "2022-09-10T05:49:24Z",
+                    "id": "Ugzp2yKzZezEGh0CSPl4AaABAg.9fme0BLtLQN9fmfMjqka4N",
+                    "likeCount": 1,
+                    "replyText": "We will go through with it during ts config file",
+                    "updated_at": "2022-09-10T05:49:24Z"
+                }
+            ],
+            "reply_count": 1,
+            "updated_at": "2022-09-10T05:37:35Z"
+        },
+        {
+            "author": "Dheeraj Singh Nagdali",
+            "comment_id": "UgzzAor2A-3qQWrE6xl4AaABAg",
+            "comment_likes": 0,
+            "comment_text": "Could you please make a video about the typescript generic maps",
+            "created_at": "2022-09-10T04:37:24Z",
+            "replies": [
+                {
+                    "authorDisplayName": "Dheeraj Singh Nagdali",
+                    "created_at": "2022-09-10T06:19:32Z",
+                    "id": "UgzzAor2A-3qQWrE6xl4AaABAg.9fmY7MOb1-Y9fmioVEZ8SL",
+                    "likeCount": 0,
+                    "replyText": "@Hitesh Choudhary absolutely right",
+                    "updated_at": "2022-09-10T06:19:32Z"
+                },
+                {
+                    "authorDisplayName": "Hitesh Choudhary",
+                    "created_at": "2022-09-10T05:50:07Z",
+                    "id": "UgzzAor2A-3qQWrE6xl4AaABAg.9fmY7MOb1-Y9fmfS0FJONZ",
+                    "likeCount": 0,
+                    "replyText": "When time comes for it, surely. Randomly jumping into topic is not learning",
+                    "updated_at": "2022-09-10T05:50:07Z"
+                }
+            ],
+            "reply_count": 2,
+            "updated_at": "2022-09-10T04:37:24Z"
+        },
+        {
+            "author": "Kiran Poojary",
+            "comment_id": "UgyXUcI0S4dDztM6e3B4AaABAg",
+            "comment_likes": 0,
+            "comment_text": "very helpful content, expecting at least daily 2 videos on TS😊",
+            "created_at": "2022-09-10T03:35:26Z",
+            "replies": [
+                {
+                    "authorDisplayName": "Hitesh Choudhary",
+                    "created_at": "2022-09-10T03:59:55Z",
+                    "id": "UgyXUcI0S4dDztM6e3B4AaABAg.9fmR1aUv3pr9fmTpvTZQwT",
+                    "likeCount": 2,
+                    "replyText": "From IIT to government jobs, expectation is killing a lot of things.",
+                    "updated_at": "2022-09-10T03:59:55Z"
+                }
+            ],
+            "reply_count": 1,
+            "updated_at": "2022-09-10T03:35:26Z"
+        },
+        {
+            "author": "Ankush Ladani",
+            "comment_id": "UgzCR2lUMENn6Zn04it4AaABAg",
+            "comment_likes": 1,
+            "comment_text": "Present Sir....",
+            "created_at": "2022-09-10T02:59:34Z",
+            "replies": [
+                {
+                    "authorDisplayName": "Om Jogani",
+                    "created_at": "2022-09-10T11:48:36Z",
+                    "id": "UgzCR2lUMENn6Zn04it4AaABAg.9fmMvuWN3K_9fnJTf1bOwL",
+                    "likeCount": 0,
+                    "replyText": "Me too!!",
+                    "updated_at": "2022-09-10T11:48:36Z"
+                }
+            ],
+            "reply_count": 1,
+            "updated_at": "2022-09-10T02:59:34Z"
+        },
+        {
+            "author": "Manish Rawat",
+            "comment_id": "UgwnUxSh8ulCVhJRX4p4AaABAg",
+            "comment_likes": 1,
+            "comment_text": "this series will definitely help me to write better code in angular",
+            "created_at": "2022-09-10T02:36:16Z",
+            "replies": [],
+            "reply_count": 0,
+            "updated_at": "2022-09-10T02:36:16Z"
+        },
+        {
+            "author": "Mustafa kukshiwala",
+            "comment_id": "UgyfZqlV5FbSVq_ke1J4AaABAg",
+            "comment_likes": 0,
+            "comment_text": "Very clear and to the point Thank you The king 🤴 of coder.",
+            "created_at": "2022-09-09T20:18:00Z",
+            "replies": [],
+            "reply_count": 0,
+            "updated_at": "2022-09-09T20:18:00Z"
+        },
+        {
+            "author": "Anirudh",
+            "comment_id": "UgyHfevHoyDwRG_nYTt4AaABAg",
+            "comment_likes": 1,
+            "comment_text": "Back to back videos, no one can stop the beast 🔥",
+            "created_at": "2022-09-09T18:38:20Z",
+            "replies": [],
+            "reply_count": 0,
+            "updated_at": "2022-09-09T18:38:20Z"
+        },
+        {
+            "author": "Venkatesh Lingampally",
+            "comment_id": "UgzgGVhZQXrGRbp133t4AaABAg",
+            "comment_likes": 0,
+            "comment_text": "Hitesh Sir on 🔥🔥🔥",
+            "created_at": "2022-09-09T18:30:56Z",
+            "replies": [
+                {
+                    "authorDisplayName": "Hitesh Choudhary",
+                    "created_at": "2022-09-09T18:50:14Z",
+                    "id": "UgzgGVhZQXrGRbp133t4AaABAg.9flSiWWtsar9flUvvw6yAh",
+                    "likeCount": 0,
+                    "replyText": "😁😁😁",
+                    "updated_at": "2022-09-09T18:50:14Z"
+                }
+            ],
+            "reply_count": 1,
+            "updated_at": "2022-09-09T18:30:56Z"
+        },
+        {
+            "author": "Tünde Eszlári",
+            "comment_id": "Ugy2q_78Cl-EbWilEaB4AaABAg",
+            "comment_likes": 1,
+            "comment_text": "The video was sensational.😍",
+            "created_at": "2022-09-09T18:30:05Z",
+            "replies": [],
+            "reply_count": 0,
+            "updated_at": "2022-09-09T18:30:05Z"
+        },
+        {
+            "author": "R kay Motivational",
+            "comment_id": "UgzXwXVasdeRjMGzN514AaABAg",
+            "comment_likes": 0,
+            "comment_text": "Jai Hind Jai Bharat 🇮🇳",
+            "created_at": "2022-09-09T18:25:58Z",
+            "replies": [],
+            "reply_count": 0,
+            "updated_at": "2022-09-09T18:25:58Z"
+        },
+        {
+            "author": "Sharad Aade",
+            "comment_id": "UgyO4P_atl_WuEIjAnZ4AaABAg",
+            "comment_likes": 2,
+            "comment_text": "Make👍🏻 Angular 👍🏻 tutorial",
+            "created_at": "2022-09-09T18:25:02Z",
+            "replies": [],
+            "reply_count": 0,
+            "updated_at": "2022-09-09T18:25:02Z"
+        },
+        {
+            "author": "Magar Amol",
+            "comment_id": "UgzS8X8omZa0psmPzUN4AaABAg",
+            "comment_likes": 0,
+            "comment_text": "🔥💯💯🫡",
+            "created_at": "2022-09-09T18:23:39Z",
+            "replies": [],
+            "reply_count": 0,
+            "updated_at": "2022-09-09T18:23:39Z"
+        },
+        {
+            "author": "PRATEEK JHA",
+            "comment_id": "Ugxa0vW-i45R0NKrwA14AaABAg",
+            "comment_likes": 0,
+            "comment_text": "<a href=\"http://www.youtube.com/results?search_query=%23hitesh\">#hitesh</a> wohoo...gr8🤞🤞🤞",
+            "created_at": "2022-09-09T18:22:53Z",
+            "replies": [],
+            "reply_count": 0,
+            "updated_at": "2022-09-09T18:22:53Z"
+        },
+        {
+            "author": "Danish Sharma",
+            "comment_id": "Ugx6SIF4q7hN-gNXO3t4AaABAg",
+            "comment_likes": 0,
+            "comment_text": "1st comment",
+            "created_at": "2022-09-09T18:22:51Z",
+            "replies": [],
+            "reply_count": 0,
+            "updated_at": "2022-09-09T18:22:51Z"
+        },
+        {
+            "author": "Anurag Band",
+            "comment_id": "UgwBnZnmObSeT7g34Mh4AaABAg",
+            "comment_likes": 0,
+            "comment_text": "Is this series contains React Typescript??",
+            "created_at": "2022-09-09T18:22:36Z",
+            "replies": [
+                {
+                    "authorDisplayName": "PRATEEK JHA",
+                    "created_at": "2022-09-09T18:28:21Z",
+                    "id": "UgwBnZnmObSeT7g34Mh4AaABAg.9flRlUbzShl9flSQ_LVlDy",
+                    "likeCount": 1,
+                    "replyText": "@Anurag Understand typescript as a more disciplined version of writing Js codes.",
+                    "updated_at": "2022-09-09T18:28:21Z"
+                },
+                {
+                    "authorDisplayName": "Hitesh Choudhary",
+                    "created_at": "2022-09-09T18:26:22Z",
+                    "id": "UgwBnZnmObSeT7g34Mh4AaABAg.9flRlUbzShl9flSC6jjXCj",
+                    "likeCount": 3,
+                    "replyText": "There is no such thing as react typescript or Angular typescript. Looks like you missed initial videos 😁",
+                    "updated_at": "2022-09-09T18:26:22Z"
+                }
+            ],
+            "reply_count": 2,
+            "updated_at": "2022-09-09T18:22:36Z"
+        },
+        {
+            "author": "Sharad Aade",
+            "comment_id": "UgwyiYQsbTTFbipnpop4AaABAg",
+            "comment_likes": 0,
+            "comment_text": "Nice 👍🏻😊",
+            "created_at": "2022-09-09T18:22:35Z",
+            "replies": [],
+            "reply_count": 0,
+            "updated_at": "2022-09-09T18:22:35Z"
+        },
+        {
+            "author": "Faiz Khan",
+            "comment_id": "Ugxg55TETx1fCZCCn8h4AaABAg",
+            "comment_likes": 1,
+            "comment_text": "Hitesh sir Beast mode on 🔥🔥🔥",
+            "created_at": "2022-09-09T18:22:25Z",
+            "replies": [],
+            "reply_count": 0,
+            "updated_at": "2022-09-09T18:22:25Z"
+        },
+        {
+            "author": "Vamshi 2nd",
+            "comment_id": "Ugz2ERT4a75ANdOS2z54AaABAg",
+            "comment_likes": 0,
+            "comment_text": "Nice timing",
+            "created_at": "2022-09-09T18:22:15Z",
+            "replies": [],
+            "reply_count": 0,
+            "updated_at": "2022-09-09T18:22:15Z"
+        }
+    ],
+    "message": "Successfully fetched comments",
+    "status": true
+}

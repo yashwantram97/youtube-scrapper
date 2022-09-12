@@ -1,0 +1,1 @@
+export const tableHeadings = ["Thumbnail", "Title", "Description", "Published_date", "Views", 'Comments', 'Video_link', "Video_status"]

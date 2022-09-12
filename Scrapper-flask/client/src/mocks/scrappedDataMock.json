@@ -1,0 +1,30 @@
+{
+    "data": [
+        {
+            "channel_search_id": "27",
+            "created_at": "2022-09-11 08:21:01.523057",
+            "description": "",
+            "id": "159",
+            "published_date": "2022-09-09 00:00:00",
+            "thumbnail_url": "https://i.ytimg.com/vi/Tn6pYmdLVq8/sddefault.jpg",
+            "title": "C, C++ and DSA in Hindi https://bit.ly/3Ko1Jek",
+            "video_link": "https://www.youtube.com/shorts/Tn6pYmdLVq8",
+            "video_status": -1,
+            "views": "6233"
+        },
+        {
+            "channel_search_id": "27",
+            "created_at": "2022-09-11 08:21:01.523057",
+            "description": "Free Registration Link: https://hackathon.ineuron.ai/techathon2.0\nLAST DATE of REGISTRATION - 14 Sep 2022\nJECRC university: https://jecrcuniversity.edu.in/\nineuron Website: https://ineuron.ai\n\nAbout Event:\nTech-A-Thon 2.0 \nDate: 17 Sep 2022 (Saturday) from 11 AM to 18 Sep 2022 (11 AM) , i.e. 24 hrs\nVenue: Auditorium, JECRC University, Jaipur Rajasthan\nEligibility: Anyone with passion for programming. No Entry FEE.\nPrizes: 2L, 1L, 50k for top three.\nSocial Media Influencer award: iPhone\nMany more give aways.\n\n\n\nMy Courses: \n1) C, C++, DSA in Depth with Job Assistance in Hindi: https://bit.ly/3Ko1Jek\n2) Full Stack Web Development using Python: https://bit.ly/3IwsvAj\n3) Job Ready Bootcamp in C, C++, DSA and IOT: https://bit.ly/3aEQJvp\n\n\nConnect with me\n------------------------------\nMySirG Instagram-  https://www.instagram.com/mysirg/\nMy Twitter- https://twitter.com/@sshukla_manit\nMySirG Facebook- https://www.facebook.com/mysirg\n\n\nHow to access Free or Paid learning videos?\n-----------------------------------------------------------------------\nVisit: https://MySirG.com\nVisit: https://premium.mysirg.com\n\nHow to join online LIVE classes?\n---------------------------------------------------\nVisit http://saurabhshuklaclasses.com\n\nCompetitive Coding \n_________________________________\nvisit https://coder.mysirg.com\nPopular Searches\n----------------------------\nPython by Saurabh Shukla Sir\nPython by Saurabh Sir\nJavascript\nGUI Python\nWeb Python\nFull Stack development\nC Language\nC++ Language\nData Structure\nPHP-MySQL\nDBMS\nJava\nAndroid\n\n\nLike, Comments, Share and SUBSCRIBE",
+            "id": "160",
+            "published_date": "2022-09-09 00:00:00",
+            "thumbnail_url": "https://i.ytimg.com/vi/NdUMbGn1a2c/sddefault.jpg",
+            "title": "Apply for Techathon 2 0 by @iNeuron Intelligence with @JECRC University",
+            "video_link": "https://www.youtube.com/watch?v=NdUMbGn1a2c",
+            "video_status": -1,
+            "views": "5729"
+        }
+    ],
+    "message": "Successfully fetched scrapped data",
+    "status": true
+}

@@ -1,0 +1,31 @@
+.channelSearchContainer {
+  margin: 1rem 2rem;
+  //    background-image: linear-gradient(
+  //   to bottom right,
+  //   #0096ff,
+  //   royalblue,
+  //   #5d3fd3
+  // );
+
+  .channelSearchTable {
+
+    .ant-table-title {
+      font-size: 25px;
+
+      .search-table-title-block {
+        display: flex;
+        justify-content: space-between;
+
+        .search-table-title {
+          font-weight: bolder;
+        }
+      }
+    }
+
+    img {
+      max-width: 10rem;
+    }
+  }
+
+
+}
