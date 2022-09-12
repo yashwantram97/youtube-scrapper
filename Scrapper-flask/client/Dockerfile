@@ -20,3 +20,4 @@ COPY --from=builder /usr/src/app/build/ /srv
 
 EXPOSE 80
 
+EXPOSE 443
