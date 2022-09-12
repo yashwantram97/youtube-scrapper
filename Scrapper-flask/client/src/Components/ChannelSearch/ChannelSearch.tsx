@@ -11,6 +11,7 @@ const ChannelSearch = (props: any) => {
   const [commentsData, setCommentsData] = useState([]);
   const [tableData, setTableData] = useState([]);
   const [showSpinner, setShowSpinner] = useState(false);
+  const [reload, setReload] = useState(0);
   const { id } = useParams();
 
   const preload = async () => {
@@ -28,7 +29,7 @@ const ChannelSearch = (props: any) => {
 
   useEffect(() => {
     preload();
-  }, []);
+  }, [reload]);
 
   const tableColumns = tableHeadings.map((heading: string) => {
     const headingText = heading.toLowerCase();
@@ -164,6 +165,13 @@ const ChannelSearch = (props: any) => {
                       }}
                     >
                       ◀BACK
+                    </button>
+                  </div>
+                  <div>
+                    <button
+                      onClick={() => setReload(reload + 1)}
+                    >
+                      RELOAD PAGE
                     </button>
                   </div>
                   <div className="search-table-title">
