@@ -1,5 +1,17 @@
 version: "3.8"
 services:
+  client:
+    container_name: client
+    build:
+      context: yts-fe
+      dockerfile: Dockerfile
+    stdin_open: true
+    ports: 
+      - "3000:3000"
+    networks:
+      - scrapper-app
+    depends_on:
+      - server
 
   server:
     container_name: api
@@ -9,6 +21,8 @@ services:
     ports:
       - "8000:8000"
     hostname: api
+    networks:
+      - scrapper-app
     depends_on:
       - selenium
 
@@ -17,3 +31,10 @@ services:
     ports:
     - 4444:4444
     hostname: selenium
+    networks:
+      - scrapper-app
+
+
+networks:
+  scrapper-app:
+    driver: bridge
