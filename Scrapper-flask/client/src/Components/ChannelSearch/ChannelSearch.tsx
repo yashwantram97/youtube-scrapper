@@ -166,8 +166,6 @@ const ChannelSearch = (props: any) => {
                     >
                       ◀BACK
                     </button>
-                  </div>
-                  <div>
                     <button
                       onClick={() => setReload(reload + 1)}
                     >
