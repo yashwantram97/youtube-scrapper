@@ -16,7 +16,7 @@ function App(props: any) {
 
   const searchYTS = async (data: any) => {
     setShowSpinner(true)
-    const response = await fetch(`http://localhost:80/scrap`, {
+    const response = await fetch(`http://localhost:80/api/scrap`, {
       method: "POST",
       headers: {
         Accept: "application/json",

@@ -93,7 +93,7 @@ def call_comment_queue(payload):
     print(r)
 
     
-@app.route('/scrap', methods=['POST'])
+@app.route('/api/scrap', methods=['POST'])
 def scrap():
     result = {}
 
@@ -135,7 +135,7 @@ def scrap():
 
     return make_response(jsonify(result),200)
     
-@app.route('/queue/data',methods=["GET"])
+@app.route('/api/queue/data',methods=["GET"])
 def get_comment_by_video_id():
     mongo = get_mongo_db()
     args = request.args
@@ -165,7 +165,7 @@ def get_comment_by_video_id():
     
     return make_response(jsonify(result),200)
 
-@app.route('/fetch/video_details',methods=["GET"])
+@app.route('/api/fetch/video_details',methods=["GET"])
 def get_scrapped_details():
 
     mongo = get_mongo_db()
@@ -188,7 +188,7 @@ def get_scrapped_details():
 
     return make_response(jsonify(result),200)
 
-@app.route('/queue/scrap/video',methods=["POST"])
+@app.route('/api/queue/scrap/video',methods=["POST"])
 def addVideoToQueue():
 
     payload = request.json

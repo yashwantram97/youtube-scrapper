@@ -5,9 +5,11 @@ services:
     build:
       context: client
       dockerfile: Dockerfile
+      args:
+        - CADDYFILE=Caddyfile
     stdin_open: true
     ports: 
-      - "3000:3000"
+      - "80:80"
     networks:
       - scrapper-app
     depends_on:
@@ -20,7 +22,7 @@ services:
       dockerfile: Dockerfile
     ports:
       - "8000:8000"
-    hostname: scrapper
+    hostname: server
     networks:
       - scrapper-app
     depends_on:
@@ -33,20 +35,6 @@ services:
     hostname: selenium
     networks:
       - scrapper-app
-
-  nginx:
-      build:
-        context: ./nginx
-        dockerfile: Dockerfile
-      container_name: nginx
-      hostname: nginx
-      ports:
-        - "80:80" 
-      depends_on:
-        - server
-      networks:
-        - scrapper-app
-
 
 networks:
   scrapper-app:

@@ -9,6 +9,14 @@ RUN npm install
 
 COPY . .
 
-EXPOSE 3000
+RUN npm run build 
 
-CMD ["npm", "start"]
+FROM caddy:2-alpine
+
+ARG CADDYFILE 
+COPY ${CADDYFILE} /etc/caddy/Caddyfile
+
+COPY --from=builder /usr/src/app/build/ /srv
+
+EXPOSE 80
+
