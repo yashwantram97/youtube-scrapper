@@ -16,7 +16,7 @@ const ChannelSearch = (props: any) => {
   const preload = async () => {
     setShowSpinner(true);
     const searchResponse = await fetch(
-      `http://localhost:80/api/fetch/video_details?channel_id=${id}`
+      `http://localhost:3000/api/fetch/video_details?channel_id=${id}`
     );
     if (searchResponse.status !== 200) throw Error("No results found");
     const searchResData = await searchResponse.json();
@@ -100,7 +100,7 @@ const ChannelSearch = (props: any) => {
 
   const downloadVideoToS3 = async (id: any, link: any) => {
     const response = await fetch(
-      `http://localhost:80/api/queue/scrap/video`,
+      `http://localhost:3000/api/queue/scrap/video`,
       {
         method: "POST",
         headers: {
@@ -118,7 +118,7 @@ const ChannelSearch = (props: any) => {
   const downloadVideo = async (id: any) => {
     setShowSpinner(true);
     const response = await fetch(
-      `http://localhost:80/api/queue/data?data=youtube&id=${id}`
+      `http://localhost:3000/api/queue/data?data=youtube&id=${id}`
     );
     if (response.ok) {
       const resData = await response.json();
@@ -129,7 +129,7 @@ const ChannelSearch = (props: any) => {
   const openCommentsModal = async (id: any) => {
     setShowSpinner(true);
     const response = await fetch(
-      `http://localhost:80/api/queue/data?data=comment&id=${id}`
+      `http://localhost:3000/api/queue/data?data=comment&id=${id}`
     );
     if (response.ok) {
       const resData = await response.json();

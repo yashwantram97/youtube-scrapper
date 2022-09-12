@@ -9,7 +9,7 @@ services:
         - CADDYFILE=Caddyfile
     stdin_open: true
     ports: 
-      - "80:80"
+      - "3000:3000"
     networks:
       - scrapper-app
     depends_on:
