@@ -38,6 +38,10 @@ services:
     ports:
     - 4444:4444
     hostname: selenium
+    environment:
+      - SE_NODE_OVERRIDE_MAX_SESSIONS=true
+      - SE_NODE_MAX_SESSIONS=5
+      - SE_NODE_SESSION_TIMEOUT=1000
     networks:
       - scrapper-app
 
