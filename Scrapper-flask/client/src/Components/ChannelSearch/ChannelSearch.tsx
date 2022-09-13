@@ -162,7 +162,7 @@ const ChannelSearch = (props: any) => {
                     <button
                       onClick={() => {
                         window.location.href =
-                          `${API}/ytshomepage`;
+                          `${API}/`;
                       }}
                     >
                       ◀BACK
