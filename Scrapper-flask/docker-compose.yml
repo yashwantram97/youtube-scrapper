@@ -6,7 +6,7 @@ services:
       context: client
       dockerfile: Dockerfile
       args:
-        - CADDYFILE=Caddyfile.local
+        - CADDYFILE=Caddyfile
     stdin_open: true
     ports: 
       - "80:80"

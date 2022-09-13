@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { API } from "./config";
 
 import { Route, Routes, Navigate } from "react-router-dom";
 import { useNavigate } from "react-router";
@@ -16,7 +17,7 @@ function App(props: any) {
 
   const searchYTS = async (data: any) => {
     setShowSpinner(true)
-    const response = await fetch(`http://137.184.202.24:80/api/scrap`, {
+    const response = await fetch(`${API}/api/scrap`, {
       method: "POST",
       headers: {
         Accept: "application/json",

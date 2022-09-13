@@ -2,5 +2,6 @@ Queue/api/config.py
 Queue/celery-queue/config.py
 Scrapper-flask/api/config.py
 Scrapper-flask/client/node_modules
-
+Scrapper-flask/client/src/config.js
+Scrapper-flask/client/Caddyfile
 
