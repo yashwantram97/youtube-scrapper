@@ -1,4 +1,4 @@
-http://137.184.202.24:80 {
+http://localhost:80 {
     root * /srv
     route {
         reverse_proxy /api* server:8000 {
