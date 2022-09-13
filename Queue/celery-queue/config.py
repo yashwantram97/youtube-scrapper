@@ -1,0 +1,8 @@
+class Config:
+    MONGO_DB_URI = 
+    MONGO_DB_NAME = 
+    AWS_ACCESS_KEY_ID = 
+    AWS_SECRET_ACCESS_KEY = 
+    BUCKETNAME = 
+    AWS_REGION = 
+    YOUTUBE_API_KEY =
