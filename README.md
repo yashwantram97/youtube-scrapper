@@ -30,3 +30,5 @@ https://github.com/yashwantram97/Ineuron-Assignments/blob/main/Youtube%20scrappe
 7) Docker and Docker compose - For containerization
 8) EC2 - VM for hosting the application
 
+## Project Demo
+https://youtu.be/JGmLGclV0MY
